@@ -1,0 +1,10 @@
+name: StopCraftCMDV2
+version: '1.0'
+main: tororo1066.stopcraftcmdv2.StopCraftCMDV2
+api-version: '1.19'
+loader: tororo1066.stopcraftcmdv2.DependencyLoader
+
+dependencies:
+  server:
+    NMSUtils:
+      load: BEFORE

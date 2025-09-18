@@ -1,0 +1,12 @@
+name: StopCraftCMDV2
+version: '${version}'
+main: tororo1066.stopcraftcmdv2.StopCraftCMDV2
+api-version: '1.19'
+
+depend:
+  - NMSUtils
+
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.7.20
+  - com.ezylang:EvalEx:3.1.2
+  - org.mongodb:mongodb-driver-sync:4.11.1
